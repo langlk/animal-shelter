@@ -39,3 +39,11 @@ p {
 .column p {
   text-align: justify;
 }
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 80%;
+    float: none;
+    margin: 10%;
+  }
+}
